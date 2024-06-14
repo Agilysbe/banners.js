@@ -156,7 +156,7 @@ export class TopsortBanner extends LitElement {
              data-ts-clickable
              data-ts-resolved-bid=${banner.resolvedBidId}
              class="ts-banner-${this.state.status}">
-          <a href="${href}">
+          <a href="${href}" target="_blank">
             <img src="${src}" alt="Topsort banner"></img>
           </a>
         </div>
